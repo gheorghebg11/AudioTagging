@@ -1,6 +1,10 @@
 # AudioTagging
 This notebook has to be opened with Google Colab. It is set-up to upload the Kaggle dataset, from my own personal Google Drive. In order to use it with your own dataset you will have to upload the files from Kaggle on your google drive, and change the files addresses to your link to your own google drive. The files get deleted after 12h (or less), so you will need to save back on your google drive any file that you create during runtime. Also, don't forget to select the GPU accelerator under Runtime -> Change runtime type.
 
+There are 2 different files:
+- AudioTag.ipynb with a 2d CNN using the MFCC features of the audio clips
+- AudioTagGRU.ipynb which build a RNN-type model with GRU cells and the Attention mechanism. The Attention mechanism is not yet integrated though.
+
 The current structure is the following:
 
 1) Load the files into Colab: 
